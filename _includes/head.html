@@ -1,0 +1,67 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="{{ "/static/css/index.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="http://cdn.bootcss.com/highlight.js/8.9.1/styles/monokai_sublime.min.css">
+  <script type="text/javascript" src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="{{ "/static/js/index.js" | prepend: site.baseurl}}"></script>
+  <script type="text/javascript" href="http://cdn.bootcss.com/modernizr/2010.07.06dev/modernizr.min.js"></script>
+  <script type="text/javascript" src="http://cdn.bootcss.com/highlight.js/8.9.1/highlight.min.js"></script>
+  <script type="text/javascript">
+$(function(){
+    hljs.initHighlightingOnLoad();
+    $('a').bind('focus', function(){
+        this.blur();
+    });
+    $('.to-top').toTop({
+    //options with default values
+        autohide: true,
+        offset: 500,
+        speed: 500,
+        right: 35,
+        bottom: 75
+    });
+    if (typeof $('#markdown-toc').html() === 'undefined') {
+        // $('#content .content-text').html('<ul><li>文本较短，暂无目录</li></ul>');
+        $('#content').hide();
+        $('#myArticle').removeClass('col-sm-9').addClass('col-sm-12');
+    } else {
+        $('ul#markdown-toc').hide();
+        $('#content .content-text').html('<ul>' + $('#markdown-toc').html() + '</ul>');
+    }
+    $('.post-list-body>div[post-cate!=All]').hide();
+        /*show category when click categories list*/
+        $('.cate-list-item').click(function() {
+            $('.cate-list-item').css('border-left','none');
+            $(this).css('border-left','0.5em solid #ea6753');
+            var cate = $(this).attr('cate'); //get category's name
+            
+            $('.post-list-body>div[post-cate!=' + cate + ']').hide(600);
+            $('.post-list-body>div[post-cate=' + cate + ']').show(900);
+        });
+    
+});
+     
+</script>
+
+  <!-- Respond.js for IE 8 or less only -->
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  
+  <!--统计代码部分暂时空缺-->
+  
+  
+  
+  
+  
+</head>

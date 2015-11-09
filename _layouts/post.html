@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="row">
+    <div id="myArticle" class="col-sm-9">
+        <div class="post-area post">
+              <header>
+                    <h1>{{ page.title }}</h1>
+                    <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • By {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} <span class="icon icon-clock"></span></p>
+              </header>
+            <hr>
+                  <article>
+                    {{ content }}
+                  </article>
+            <hr>
+        </div>
+    </div>
+    <div id="content" class="col-sm-3">
+        <div id="myAffix" class="shadow-bottom-center hidden-xs">
+            <div class="cate-list-header">
+                <h3>Blog导读</h3>
+            </div>
+            <div class="content-text"></div>
+        </div>
+    </div>
+
+</div>

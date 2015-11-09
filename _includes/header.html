@@ -1,0 +1,44 @@
+<header>
+<!-- navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!--Brand and toggle get grouped for better mobile display-->
+            <div class="navbar-header">
+<!--                <img src="{{ "/static/img/6.png" | prepend: site.baseurl }}" alt="bike" />-->
+                <a href="{{ site.baseurl }}/" class="navbar-brand">{{ site.title }}</a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+            <!--Collect the nav links, forms, and other content for toggling-->
+            <div class="collapse navbar-collapse" id="example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    {% if page.url == "/index.html" %}
+                        <li class="active">
+                    {% else %}
+                        <li>
+                    {% endif %}
+                        <a href="{{ site.baseurl }}/"><span class="icon icon-quill"></span> 博客</a>
+                        
+                    {% for p in site.pages %}
+                      {% if p.title %}
+                        {% if p.url == page.url %}
+                          <li class="active">
+                          {% else %}
+                          <li>
+                        {% endif %}
+                        <a href="{{ p.url | prepend: site.baseurl }}"><span class="icon {{ p.icon }}"></span> {{ p.title }}</a></li>
+                      {% endif %}
+                    {% endfor %}
+                    
+                  </ul>
+                  
+            </div>  <!--navbar-collapse-->
+        </div>    <!--container-->
+    </nav>
+    
+</header>
