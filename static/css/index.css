@@ -70,7 +70,7 @@ nav{
 }
 .navbar-header a.navbar-brand{
     padding-left: -8px;
-    padding-right: 46px;
+    padding-right: 56px;
     height: 100%;
     display: block;
     background-image: url(../img/6.png);
@@ -273,6 +273,12 @@ footer#foot{
 
 @media screen and (max-width: 600px){
     #foot{
+        display: none;
+    }
+    .post-area{
+        width: 99vw;
+    }
+    .to-top{
         display: none;
     }
 }
