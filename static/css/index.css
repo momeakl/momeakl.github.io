@@ -69,12 +69,12 @@ nav{
     border-radius:0;
 }
 .navbar-header a.navbar-brand{
-    padding-right: 55px;
+    padding-right: 65px;
     height: 100%;
     display: block;
     background-image: url(../img/6.png);
     background-repeat: no-repeat;
-    background-position: 210px center;
+    background-position: 206px center;
     background-size: 50px;
 }
 
@@ -307,7 +307,7 @@ div.post article{
 }
 div.post img{
     max-width: 100%;
-    
+    margin: 0 auto;
 }
 /*blog 导读*/
 #content {
