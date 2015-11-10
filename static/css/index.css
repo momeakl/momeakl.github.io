@@ -1,13 +1,7 @@
 /*reset*/
 /*样式初始化*/
 html, body, div, span, applet, object, iframe,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-fieldset, form, label, legend,
-menu, output, ruby, summary,
-time, mark, audio, video {
+a{
 	margin: 0;
 	padding: 0;
 }
@@ -75,17 +69,16 @@ nav{
     border-radius:0;
 }
 .navbar-header a.navbar-brand{
+    padding-left: -8px;
     padding-right: 46px;
     height: 100%;
     display: block;
     background-image: url(../img/6.png);
     background-repeat: no-repeat;
-    background-position: 240px center;
+    background-position: 235px center;
     background-size: 50px;
 }
-.navbar .navbar-header img{
-    max-height: 50px;
-}
+
 .navbar .navbar-toggle{
     border: none;
 }
