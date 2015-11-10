@@ -271,12 +271,13 @@ footer#foot{
     line-height: 60px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     #foot{
         display: none;
     }
     .post-area{
-        width: 99vw;
+        width: 98vw;
+        margin-left: 0;
     }
     .to-top{
         display: none;
