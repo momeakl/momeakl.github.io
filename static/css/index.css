@@ -336,6 +336,17 @@ div.post img{
     outline: none;
 }
 
+/*page页面*/
+article.page-content p{
+    margin-bottom: 20px;
+}
+article table{
+    font-size: 16px;
+    line-height: 30px;
+}
+article table tr{
+    padding: 16px;
+}
 /**
  * Blockquotes
  */
