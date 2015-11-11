@@ -276,7 +276,7 @@ footer#foot{
  * post articles area
  */
 #myArticle{
-    margin-left: -36px;
+    margin-left: 0px;
 }
 div.post{
     margin: 10px 0;
@@ -312,7 +312,6 @@ div.post img{
 /*blog 导读*/
 #content {
     margin-top: 23px;
-    margin-left: 30px;
     padding: 0;
     font-size: 15px;
     background: #f8f8fd url(../img/bg-0004.jpg);
