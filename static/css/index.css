@@ -10,12 +10,12 @@ body {
     font-family: 'Microsoft YaHei', 'Helvetica','Arial','SimHei', sans-serif;
     position: relative;
     min-width: 370px;
-    background: linear-gradient(179deg, #e3ac24, #e8cf8f, #b4e6d7, #61aee3,#617be3);
+    background: linear-gradient(179deg, #e3ac24, #e8cf8f, #b4e6d7);
     background-size: 900% 900%;
 
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
+    -webkit-animation: AnimationName 50s ease infinite;
+    -moz-animation: AnimationName 50s ease infinite;
+    animation: AnimationName 50s ease infinite;
 }
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 91%}
@@ -295,9 +295,18 @@ footer div.footerImg{
     background: transparent url(../img/footer.png) repeat-x scroll 0 0;
 }
 footer div.contact{
-    line-height: 60px;
+    line-height: 70px;
     background: #000;
 }
+footer .btn{
+    color: #ccc;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+footer .btn:hover{
+    color: #fff;
+}
+
 footer div.footerPart{
     height: 40%;
     background: #000;
