@@ -263,13 +263,14 @@ div span.my-badge{
     display: inline-block;
 }
 /*category content公告*/
-div.cate-list-content{
-    padding: 20px;
-    text-indent: 8px;
-    line-height: 30px;
+div.cate-list-link{
+    padding: 5px 15px;
+    line-height: 22px;
     letter-spacing: 1px;
 }
-
+div.cate-list-link ul{
+    margin: 10px 0 8px -5px;
+}
 
 
 /*back to top*/

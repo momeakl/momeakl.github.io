@@ -1,12 +1,20 @@
 ---
 layout: post
-title:  "JavaScript 阶段总结"
+title:  "JavaScript学习总结"
 date:   2015-07-09 00:06:05
-author: 高浩阳
+author: 我所以为的世界
 categories: JavaScript
-excerpt: 做了一张思维导图。总结这几个月对JavaScript 的学习吧，也是一个复习。
+excerpt: 不要点，什么也木有
 ---
 
-做了一张思维导图。总结这几个月对 JavaScript 的学习吧，也是一个复习。
+都说了不要点，四不四傻~   js方面还在进修中，底子不好，是以后要着重努力的地方，这篇暂且空着，~以后有空写~
 
-![JavaScriptNet](http://7q5cdt.com1.z0.glb.clouddn.com/blog-JavaScriptNet2.png)
+>最近有一部国产的动漫作品挺不错的，时间很短，但内容啊，画风啊都挺不错的，给上几张图
+
+
+![罚球线]({{ "/static/img/13.jpg" }})
+
+![罚球线]({{ "/static/img/04.png" }})
+
+
+
