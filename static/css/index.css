@@ -11,7 +11,7 @@ body {
     position: relative;
     min-width: 370px;
     background: linear-gradient(179deg, #e3ac24, #e8cf8f, #b4e6d7, #61aee3,#617be3);
-    background-size: 800% 800%;
+    background-size: 900% 900%;
 
     -webkit-animation: AnimationName 30s ease infinite;
     -moz-animation: AnimationName 30s ease infinite;
@@ -109,10 +109,10 @@ nav{
 }
 .post-area {
     background: #f8f8fd url(../img/bg-0004.jpg);
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
-    -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
+    -webkit-box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
+    -moz-box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
+    -o-box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
+    box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
 }
 
 .post-list-item{
@@ -220,10 +220,10 @@ div.shadow-corner-curl{
     margin-bottom: 20px;
     background: #f8f8fd url(../img/bg-0004.jpg); 
     padding-top: 12px;
-    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-	-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-	-o-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
+    -webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
+	-moz-box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
+	-o-box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
+	box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
     border-radius: 12px;
 }
 div.cate-list-header{
@@ -284,7 +284,7 @@ a.to-top{
 footer#foot{
     position:relative;
     bottom: 0;
-    height: 100px;
+    height: 80px;
     width: 100%;
     text-align: center;
     margin-top: 60px;
@@ -292,14 +292,14 @@ footer#foot{
 footer div.footerImg{
     height: 10px;
     width: 100%;
-    background: rgba(0,0,0,0) url(../img/footer.png) repeat-x scroll 0 0;
+    background: transparent url(../img/footer.png) repeat-x scroll 0 0;
 }
 footer div.contact{
-    line-height: 80px;
+    line-height: 60px;
     background: #000;
 }
 footer div.footerPart{
-    height: 30%;
+    height: 40%;
     background: #000;
     width: 100%;
     color: #fff;
