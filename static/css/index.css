@@ -10,12 +10,12 @@ body {
     font-family: 'Microsoft YaHei', 'Helvetica','Arial','SimHei', sans-serif;
     position: relative;
     min-width: 370px;
-    background: linear-gradient(179deg, #e3ac24, #e8cf8f, #b4e6d7);
-    background-size: 900% 900%;
+    background: linear-gradient(179deg, #e3ac24, #e8cf8f, #b4e6d7,#56b3f2);
+    background-size: 800% 800%;
 
-    -webkit-animation: AnimationName 50s ease infinite;
-    -moz-animation: AnimationName 50s ease infinite;
-    animation: AnimationName 50s ease infinite;
+    -webkit-animation: AnimationName 52s ease infinite;
+    -moz-animation: AnimationName 52s ease infinite;
+    animation: AnimationName 52s ease infinite;
 }
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 91%}
