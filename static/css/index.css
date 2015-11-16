@@ -5,50 +5,17 @@ a{
 	margin: 0;
 	padding: 0;
 }
-
-body {
-    font-family: 'Microsoft YaHei', 'Helvetica','Arial','SimHei', sans-serif;
-    position: relative;
-    min-width: 370px;
-    background: linear-gradient(179deg, #e3ac24, #e8cf8f, #b4e6d7,#56b3f2);
-    background-size: 800% 800%;
-
-    -webkit-animation: AnimationName 52s ease infinite;
-    -moz-animation: AnimationName 52s ease infinite;
-    animation: AnimationName 52s ease infinite;
-}
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 91%}
-    50%{background-position:100% 10%}
-    100%{background-position:0% 91%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 91%}
-    50%{background-position:100% 10%}
-    100%{background-position:0% 91%}
-}
-@keyframes AnimationName { 
-    0%{background-position:0% 91%}
-    50%{background-position:100% 10%}
-    100%{background-position:0% 91%}
-}
 ul li{
     font-size: 16px;
     line-height: 28px;
-}
-hr{
-    size:5;
-    color: #000;
 }
 pre{
 	padding: 0;
 	background: none;
 }
-
 pre code{
 	font-size: 14px;
 }
-
 table{
 	border-top:2px solid #777;
 	border-bottom: 2px solid #777;
@@ -73,20 +40,22 @@ article p{
     font-size: 16px;
     line-height: 23px;
 }
-#index a:visited {color: #2ca6cb;}  /*已访问的链接*/
-#index a:hover{
+a:visited {color: #2ca6cb;}  /*已访问的链接*/
+a:hover{
     color: #2ca6cb;
     text-decoration: none;
 }
 
-
-/*body*/
+body {
+    font-family: 'Microsoft YaHei', 'Helvetica','Arial', sans-serif;
+    background: #e3ac24 ;
+}
+/*navbar*/
 nav{
     -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
 	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
 	-o-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
 	box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-
 }
 .navbar,.navbar-inverse{
     border-radius:0;
@@ -100,7 +69,6 @@ nav{
     background-position: 206px center;
     background-size: 50px;
 }
-
 .navbar .navbar-toggle{
     border: none;
 }
@@ -110,6 +78,7 @@ nav{
 .navbar a.navbar-brand:hover{
     color: crimson;
 }
+/*The left part of the main*/
 .post-area {
     background: #f8f8fd url(../img/bg-0004.jpg);
     -webkit-box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
@@ -117,14 +86,12 @@ nav{
     -o-box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
     box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
 }
-
 .post-list-item{
 	display: block;
 	padding:8px 30px 10px 30px; 
     margin-bottom: 3px;
 	border-bottom:1px dashed #aaa;
     border-left: 0.5em solid #ccc;
-
 	transition:0.45s ease; 
 	-webkit-transition:0.45s ease;
 	-moz-transition:0.45s ease;
@@ -148,8 +115,7 @@ nav{
 }
 .post-list-item h2{
     color:#2ca6cb;
-	margin: 8px 0 12px 0;
-	padding: 0;
+	margin: 5px 0 5px 0;
 }
 .post-list-item p{
     font-size: 15px;
@@ -160,10 +126,9 @@ nav{
 .post-list-item:hover{
     border-left: 0.5em solid #ea6753;
 }
-
+/*fen ye*/
 .paginator{
 	border-top:1px solid #ddd;
-    margin-top: 3px;
     margin-bottom: 50px;
 	text-align: center;
     position: relative;
@@ -206,8 +171,6 @@ nav{
     color: #ea6753;
     display: inline-block;
 }
-
-
 .paginator a.page{
     display: inline-block;
     width: 40px;
@@ -217,17 +180,15 @@ nav{
     background: #ccc;
 }
 
-
-/*category*/
+/*category the right part of main*/
 div.shadow-corner-curl{
     margin-bottom: 20px;
     background: #f8f8fd url(../img/bg-0004.jpg); 
-    padding-top: 12px;
     -webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
 	-moz-box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
 	-o-box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
 	box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 div.cate-list-header{
     display: block;
@@ -249,7 +210,6 @@ div a.cate-list-item{
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -o-transition: 0.3s ease;
-    
 }
 div a.cate-list-item:hover{
     border-left:0.5em solid #ea6753;
@@ -272,7 +232,10 @@ div.cate-list-link{
     letter-spacing: 1px;
 }
 div.cate-list-link ul{
-    margin: 10px 0 8px -5px;
+    margin: 10px 0 8px -10px;
+}
+div.cate-list-link li a{
+    color:cornflowerblue;
 }
 
 
@@ -322,9 +285,7 @@ footer div.footerPart{
 /* post
  * post articles area
  */
-#myArticle{
-    margin-left: 0px;
-}
+
 div.post{
     margin: 10px 0;
     padding-bottom: 20px;
@@ -332,14 +293,12 @@ div.post{
 div.post header{
     border-bottom: 1px solid #ccc;
     border-left: 0.5em solid #ea6753;
-
 }
 
 div.post h1{
-    padding: 23px 15px 20px 12px; 
-/*    font-family: "Microsoft Jhenghei","Microsoft Yahei";*/
+    padding: 23px 15px 20px 18px; 
     font-weight: bold;
-    line-height: 30px;
+    line-height: 36px;
     color: #2ca6cb;
 }
 div.post header p{
@@ -358,7 +317,7 @@ div.post img{
 }
 /*blog 导读*/
 #content {
-    margin-top: 23px;
+    margin-top: 20px;
     padding: 0;
     font-size: 15px;
     background: #f8f8fd url(../img/bg-0004.jpg);
@@ -366,13 +325,13 @@ div.post img{
 	-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
 	-o-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-    border-radius: 10px;
 }
 #content .cate-list-header{
+    margin-bottom: 8px;
     background-image: url(../img/index-category-02.png);
-    background-size: 60px;
+    background-size: 55px;
     background-repeat: no-repeat;
-    background-position: 120px center;
+    background-position: 130px center;
 }
 #content ul li{
     padding-left: 0;
@@ -403,7 +362,6 @@ blockquote {
     padding-left: 15px;
     font-size: 16px;
     background: rgba(112,138,153,.1);
-    /*font-style: italic;*/
 }
 blockquote:last-child {
     margin-bottom: 0;
@@ -412,7 +370,7 @@ blockquote:last-child {
 .comment{
 	margin-top: 20px;
 }
-/*mulu*/
+
 /**
  * 文章目录相关
  */
@@ -422,11 +380,6 @@ blockquote:last-child {
 	}
 }
 
-
-#myAffix .affix{
-	top:-20px;
-	bottom: 0px;
-}
 
 @media screen and (max-width: 1200px){
 	.post{
