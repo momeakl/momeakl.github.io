@@ -5,6 +5,12 @@ a{
 	margin: 0;
 	padding: 0;
 }
+
+body {
+    font-family: 'Microsoft YaHei', 'Helvetica','Arial', sans-serif;
+    background: #e3ac24 ;
+}
+
 ul li{
     font-size: 16px;
     line-height: 28px;
@@ -46,10 +52,7 @@ a:hover{
     text-decoration: none;
 }
 
-body {
-    font-family: 'Microsoft YaHei', 'Helvetica','Arial', sans-serif;
-    background: #e3ac24 ;
-}
+
 /*navbar*/
 nav{
     -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
@@ -91,7 +94,7 @@ nav{
 	padding:8px 30px 10px 30px; 
     margin-bottom: 3px;
 	border-bottom:1px dashed #aaa;
-    border-left: 0.5em solid #ccc;
+    border-left: 0.6em solid #ccc;
 	transition:0.45s ease; 
 	-webkit-transition:0.45s ease;
 	-moz-transition:0.45s ease;
@@ -103,7 +106,7 @@ nav{
 }
 .post-list-item a{
     display: block;
-    border-left: 0.5em solid #ccc;
+    border-left: 0.6em solid #ccc;
     transition:  0.45s ease;
     -webkit-transition: 0.45s ease;
 	-moz-transition: 0.45s ease;
@@ -115,7 +118,7 @@ nav{
 }
 .post-list-item h2{
     color:#2ca6cb;
-	margin: 5px 0 5px 0;
+	margin: 5px 0 8px 0;
 }
 .post-list-item p{
     font-size: 15px;
@@ -124,7 +127,7 @@ nav{
     line-height: 22px;
 }
 .post-list-item:hover{
-    border-left: 0.5em solid #ea6753;
+    border-left: 0.6em solid #ea6753;
 }
 /*fen ye*/
 .paginator{
@@ -314,6 +317,11 @@ div.post article{
 div.post img{
     max-width: 100%;
     margin: 0 auto;
+}
+
+/*baidu share*/
+div.bdsharebuttonbox{
+    margin-left: 2em;
 }
 /*blog 导读*/
 #content {
