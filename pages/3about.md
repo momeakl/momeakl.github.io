@@ -48,6 +48,7 @@ icon: icon-tongue
 
 电话就算了，不玩微信~可以粉我微博哟~
 
+
 * 扣扣 ：[641909218](http://momeakl.github.io)
 * Weibo：[我所以为的世界](http://weibo.com/u/2766023655)
 * 豆瓣：[In_Energy]( http://www.douban.com/people/In_Energy/)

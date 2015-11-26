@@ -11,7 +11,7 @@ icon: icon-pacman
 
 ### 疯帽子~
 
-![爱丽丝梦游仙境]({{ "/static/img/fengmaozi2.jpg" }})
+![爱丽丝梦游仙境](http://7xonct.com1.z0.glb.clouddn.com/blog/fengmaozi2.jpg)
 
 
 
