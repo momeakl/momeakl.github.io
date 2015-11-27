@@ -84,10 +84,10 @@ nav{
 /*The left part of the main*/
 .post-area {
     background: #f8f8fd url(../img/bg-0004.jpg);
-    -webkit-box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
-    -moz-box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
-    -o-box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
-    box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
+    -webkit-box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
+    -moz-box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
+    -o-box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
 }
 .post-list-item{
 	display: block;
@@ -123,7 +123,7 @@ nav{
 .post-list-item p{
     font-size: 15px;
     color:dimgray;
-    font-family: '幼圆';
+    font-family: 'microsoft yahei';
     line-height: 22px;
 }
 .post-list-item:hover{
