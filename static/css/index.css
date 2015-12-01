@@ -314,6 +314,9 @@ div.post header p .icon{
 div.post article{
     padding: 0 23px;
 }
+div.post article p{
+    line-height: 1.7;
+}
 div.post img{
     max-width: 100%;
     margin: 0 auto;
