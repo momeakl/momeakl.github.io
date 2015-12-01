@@ -11,7 +11,7 @@ layout: default
                     {% for post in paginator.posts %}
                         <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-item">
                         <span class="post-time">
-                            {{ post.date | date: "%b %-d, %Y" }}
+                            {{ post.date | date: "%Y年%m月%d日" }}
                         </span>
                         <h2>
                             {{ post.title }}
@@ -69,7 +69,7 @@ layout: default
                                    {% if post.url %}
                                     <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-item">
                                         <span class="post-time">
-                            {{ post.date | date: "%b %-d, %Y" }}
+                            {{ post.date | date: "%Y-%m-%d" }}
                         </span>
                         <h2>
                             {{ post.title }}
