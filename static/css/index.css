@@ -84,10 +84,6 @@ nav{
 /*The left part of the main*/
 .post-area {
     background: #f8f8fd url(../img/bg-0004.jpg);
-    -webkit-box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
-    -moz-box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
-    -o-box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
-    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(10, 10, 0, 0.1) inset;
 }
 .post-list-item{
 	display: block;
@@ -183,20 +179,42 @@ nav{
     background: #ccc;
 }
 
-/*category the right part of main*/
+/*category | the right part of main*/
 div.shadow-corner-curl{
     margin-bottom: 20px;
     background: #f8f8fd url(../img/bg-0004.jpg); 
-    -webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
+/*    -webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
 	-moz-box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
 	-o-box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
-	box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
-    border-radius: 8px;
+	box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;*/
+}
+
+
+div.shadow-corner-curl:after{
+    
 }
 div.cate-list-header{
     display: block;
-    padding: 5px 15px;
-    border-bottom: 1px dashed #ccc;
+    padding: 3px 15px;
+    position: relative;
+    background: #ea6753;
+}
+div.cate-left{
+    width: 1em;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -1em;
+    background: #ea6753;
+}
+div.sanjiao{
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: -1em;
+    left: -1em;
+    border-top: 1em solid #b71c1c;
+    border-left: 1em solid transparent; 
 }
 div.cate-list-header h2{
     line-height: 25px;
@@ -215,11 +233,10 @@ div a.cate-list-item{
     -o-transition: 0.3s ease;
 }
 div a.cate-list-item:hover{
-    border-left:0.5em solid #ea6753;
+    /*border-left:0.5em solid #ea6753;*/
+    background: rgba(0,0,0,.1);
 }
-div a.cate-list-item:first-of-type{
-    border-left:0.5em solid #ea6753;
-}
+
 div a.cate-list-item:last-of-type{
     border-bottom: none;
 }
@@ -293,6 +310,7 @@ div.post{
     margin: 10px 0;
     padding-bottom: 20px;
 }
+
 div.post header{
     border-bottom: 1px solid #ccc;
     border-left: 0.5em solid #ea6753;
@@ -393,11 +411,7 @@ blockquote:last-child {
 
 
 @media screen and (max-width: 1200px){
-	.post{
-		padding:10px 10px;
-		font-size: 15px;
-		line-height: 1.4;
-	}
+	
 	blockquote {
 		border-left: 3px solid #D6DBDF;
     	padding-left: 5px;
