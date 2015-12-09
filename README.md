@@ -8,7 +8,14 @@
 
 * 大家如果也想搭建一个方便自己写博文的博客的话，自己可以上网上查找教程，教程还是蛮多的，其中官方的文档一定要看一下，（其实看了官方文档后就差不多了）
 
-* 感觉我的博客模板还可以的话也欢迎拿去修改，也期待赠与一个小小的star哟~ ![haha](http://7xonct.com1.z0.glb.clouddn.com/rabit/haha.gif)
+* 这里也推荐一个他人的教程
+
+
+>  [搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html0)
+
+
+* 感觉我的博客模板还可以的话也欢迎拿去修改，也期待赠与一个小小的star哟~ 
+![haha](http://7xonct.com1.z0.glb.clouddn.com/rabit/haha.gif)
 
 * 有什么问题可以在网站留言，我会经常打理自己的博客的，也可以关注我的微博，私信给我，微博ID：我所以为的世界
 
