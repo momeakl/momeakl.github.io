@@ -185,18 +185,39 @@ nav{
 
 /*category | the right part of main*/
 div.shadow-corner-curl{
+    position: relative;
     margin-bottom: 20px;
     background: #f8f8fd url(../img/bg-0004.jpg); 
-/*    -webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
-	-moz-box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
-	-o-box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;
-	box-shadow: 0 4px 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.1) inset;*/
+}
+.shadow-corner-curl:before,
+.shadow-corner-curl:after{
+    position: absolute;
+    z-index: -2;
+    content: '';
+    width: 80%;
+    height: 20%;
+    bottom: 11px;
+    background: transparent;
+    -webkit-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+	-o-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+	box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+.shadow-corner-curl:before{
+    left: 16px;
+    transform: skewX(-20deg) rotate(-7deg);
+    -webkit-transform: skewX(-20deg) rotate(-7deg);
+    -moz-transform: skewX(-20deg) rotate(-7deg);
+    -o-transform: skewX(-20deg) rotate(-7deg);
+}
+.shadow-corner-curl:after{
+    right: 17px;
+    transform: skewX(20deg) rotate(7deg);
+    -webkit-transform: skewX(20deg) rotate(7deg);
+    -moz-transform: skewX(20deg) rotate(7deg);
+    -o-transform: skewX(20deg) rotate(7deg);
 }
 
-
-/*div.shadow-corner-curl:after{
-    
-}*/
 div.cate-list-header{
     display: block;
     padding: 3px 15px;
