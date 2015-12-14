@@ -29,4 +29,4 @@
 ![cv2](http://7xonct.com1.z0.glb.clouddn.com/photos/jietupage5.png)
 
 
-> [简历演示](http://gaobing.coding.io)
+> [简历演示](http://momeakl.github.io/CV/)
