@@ -284,6 +284,7 @@ div span.my-badge{
 
 /*category content公告*/
 div.cate-list-link{
+    overflow-y:auto;
     padding: 5px;
     line-height: 22px;
     letter-spacing: 1px;
