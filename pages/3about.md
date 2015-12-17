@@ -52,8 +52,6 @@ icon: icon-tongue
 
 *  扣扣 ：[641909218](http://momeakl.github.io)  
 *  Weibo：[我所以为的世界](http://weibo.com/u/2766023655)  
-*  豆瓣：[In_Energy]( http://www.douban.com/people/In_Energy/)  
-*  花瓣：[In_Energy](http://huaban.com/momeakl/)  
 *  知乎：[gaobing](http://www.zhihu.com/people/gao-bing-89)
 
 
