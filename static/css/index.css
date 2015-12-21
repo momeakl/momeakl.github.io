@@ -84,10 +84,10 @@ nav{
 /*The left part of the main*/
 .post-area {
     background: #f8f8fd url(../img/bg-0004.jpg);
-    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-    -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-    -o-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 10px rgba(0,0,0,0.1) inset;
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 10px rgba(0,0,0,0.1) inset;
+    -o-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 10px rgba(0,0,0,0.1) inset;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 10px rgba(0,0,0,0.1) inset;
 }
 .post-list-item{
 	display: block;
