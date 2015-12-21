@@ -35,6 +35,9 @@ icon: icon-tongue
   + [优设网](http://www.uisdc.com/) 想学点设计方面的来这里就对了
   + [牛大拿](http://www.niudana.com/) 设计师常用的导航站之一
 
+另外发现一个github支持的emoji表情网站，特别方便，可直接拿来使用
+
+> [网站链接](http://www.emoji-cheat-sheet.com/)
 
 暂时就这些吧，如果你也有比较喜欢的网站也欢迎分享~~
 
