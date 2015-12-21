@@ -225,29 +225,31 @@ div.shadow-corner-curl{
 div.cate-list-header{
     display: block;
     padding: 3px 15px;
-    position: relative;
     background: #ea6753;
     background-image: url(http://7xonct.com1.z0.glb.clouddn.com/blog/index-category-02.png);
     background-size: 55px;
     background-repeat: no-repeat;
     background-position: 160px center;
 }
+.cate-show{
+    position: relative;
+}
 div.cate-first{
     background-image: url(http://7xonct.com1.z0.glb.clouddn.com/blog/jiji.png);
 }
-.cate-list-header:before,
-.cate-list-header:after{
+.cate-show:before,
+.cate-show:after{
     position: absolute;
     content: '';
 }
-.cate-list-header:before{
+.cate-show:before{
     width: 1em;
     height: 100%;
     top: 0;
     left: -1em;
     background: #ea6753;
 }
-.cate-list-header:after{
+.cate-show:after{
     height: 0;
     width: 0;
     bottom: -1em;
