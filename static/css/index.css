@@ -415,7 +415,7 @@ div.bdsharebuttonbox{
 
 /*page页面*/
 article.page-content p{
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 article table{
     font-size: 16px;
@@ -427,7 +427,7 @@ article table tr{
 /**
  * Blockquotes
  */
-.page-content blockquote {
+blockquote {
     color: #444;
     border-left: 5px solid #D6DBDF;
     padding-left: 15px;
