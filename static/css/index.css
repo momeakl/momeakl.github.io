@@ -235,18 +235,21 @@ div.cate-list-header{
 div.cate-first{
     background-image: url(http://7xonct.com1.z0.glb.clouddn.com/blog/jiji.png);
 }
-div.cate-left{
+.cate-list-header:before,
+.cate-list-header:after{
+    position: absolute;
+    content: '';
+}
+.cate-list-header:before{
     width: 1em;
     height: 100%;
-    position: absolute;
     top: 0;
     left: -1em;
     background: #ea6753;
 }
-div.sanjiao{
+.cate-list-header:after{
     height: 0;
     width: 0;
-    position: absolute;
     bottom: -1em;
     left: -1em;
     border-top: 1em solid #b71c1c;
