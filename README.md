@@ -1,6 +1,6 @@
-# momeakl.github.io
+# :sparkles::sparkles: 火焰彩虹 :sparkles::sparkles:
 ![bishi](http://7xonct.com1.z0.glb.clouddn.com/rabit/bisihi.gif)
-## 基于jekyll搭建的个人静态博客
+## 基于jekyll搭建的个人静态博客 :dizzy::dizzy::dizzy:
 起初是想学习用node搭建一个个人博客（貌似node也有一个开源的轻量级博客系统），然后拿来当作毕设，后来因为学校毕设答辩推迟到下半年了，所以就不着急忙这个了，索性学习jekyll搭建一个静态博客，一次性搭建好了就只需要埋头写博客就OK啦~
 
 
