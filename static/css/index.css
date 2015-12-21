@@ -427,7 +427,7 @@ article table tr{
 /**
  * Blockquotes
  */
-blockquote {
+.page-content blockquote {
     color: #444;
     border-left: 5px solid #D6DBDF;
     padding-left: 15px;
