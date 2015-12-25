@@ -51,7 +51,7 @@ icon: icon-tongue
 
 ### 联系我 ![bishi](http://7xonct.com1.z0.glb.clouddn.com/rabit/bisihi.gif)
 
-电话就算了，不玩微信~可以粉我微博哟~
+电话就算了~可以粉我微博哟~
 
 *  扣扣 ：[641909218](http://momeakl.github.io)  
 *  Weibo：[我所以为的世界](http://weibo.com/u/2766023655)  
