@@ -1,5 +1,4 @@
 /*reset*/
-/*样式初始化*/
 html, body, div, span, applet, object, iframe,
 a{
 	margin: 0;
@@ -117,9 +116,7 @@ nav{
     font-size: 13px;
     border-radius: 9px;
 }
-/*.post-list-item span.post-cate{
-    color: #292929;
-}*/
+
 .post-list-item h2{
     color:#2ca6cb;
 	margin: 5px 0 8px 0;
