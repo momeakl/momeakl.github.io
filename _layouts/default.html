@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
     {% include header.html %}
 
@@ -11,35 +11,58 @@
         {{ content }}
     </div>
 
-  <a href="#" class="to-top"></a>
-   <!--<div id="top" data-toggle="tooltip" data-placement="left" title="回到顶部">
+    <a href="#" class="to-top"></a>
+    <!--<div id="top" data-toggle="tooltip" data-placement="left" title="回到顶部">
        <a href="javascript:;">
            <div class="arrow"></div>
            <div class="stick"></div>
        </a>
    </div>-->
-   
+
     {% include footer.html %}
 
     <!-- 百度分享 begin-->
-    
-<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"32"},"share":{},"image":{"viewList":["qzone","tsina","weixin","renren","douban","huaban"],"viewText":"分享到：","viewSize":"24"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","weixin","renren","douban","huaban"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-    
-    <!-- end -->
-    
-    <!-- 在新窗口中打开 -->
-  <script type="text/javascript">
-    function addBlankTargetForLinks () {
-      $('a[href^="http"]').each(function(){
-          $(this).attr('target', '_blank');
-      });
-    }
-    //每次在有DOM插入时触发
-    $(document).bind('DOMNodeInserted', function(event) {
-      addBlankTargetForLinks();
-    });
-  </script>
 
-  </body>
+    <script>
+        window._bd_share_config = {
+            "common": {
+                "bdSnsKey": {},
+                "bdText": "",
+                "bdMini": "2",
+                "bdMiniList": false,
+                "bdPic": "",
+                "bdStyle": "1",
+                "bdSize": "32"
+            },
+            "share": {},
+            "image": {
+                "viewList": ["qzone", "tsina", "weixin", "renren", "douban", "huaban"],
+                "viewText": "分享到：",
+                "viewSize": "24"
+            },
+            "selectShare": {
+                "bdContainerClass": null,
+                "bdSelectMiniList": ["qzone", "tsina", "weixin", "renren", "douban", "huaban"]
+            }
+        };
+        with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+    </script>
+
+    <!-- end -->
+
+    <!-- 在新窗口中打开 -->
+    <script type="text/javascript">
+        function addBlankTargetForLinks() {
+            $('a[href^="http"]').each(function () {
+                $(this).attr('target', '_blank');
+            });
+        }
+         //每次在有DOM插入时触发
+        $(document).bind('DOMNodeInserted', function (event) {
+            addBlankTargetForLinks();
+        });
+    </script>
+
+</body>
 
 </html>

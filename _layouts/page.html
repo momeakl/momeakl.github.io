@@ -2,37 +2,39 @@
 layout: default
 ---
 
-    <div class="post post-area">
+<div class="post post-area">
 
-      <header>
+    <header>
         <h1>{{ page.title }}</h1>
-      </header>
-      <a href="#" class="to-top"></a>
-      <hr>
-      <article class="page-content">
+    </header>
+    <a href="#" class="to-top"></a>
+    <hr>
+    <article class="page-content">
         {{ content }}
-      </article>
+    </article>
 
-    </div>
+</div>
 
 
-    <div class="post-area post comment">
-        <!-- 第三方评论 -->
-        <div id="lv-container" data-id="city" data-uid="MTAyMC8zMzUyOS8xMDA4NQ==">
+<div class="post-area post comment">
+    <!-- 第三方评论 -->
+    <div id="lv-container" data-id="city" data-uid="MTAyMC8zMzUyOS8xMDA4NQ==">
         <script type="text/javascript">
-           (function(d, s) {
-               var j, e = d.getElementsByTagName(s)[0];
+            (function (d, s) {
+                var j, e = d.getElementsByTagName(s)[0];
 
-               if (typeof LivereTower === 'function') { return; }
+                if (typeof LivereTower === 'function') {
+                    return;
+                }
 
-               j = d.createElement(s);
-               j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-               j.async = true;
+                j = d.createElement(s);
+                j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                j.async = true;
 
-               e.parentNode.insertBefore(j, e);
-           })(document, 'script');
+                e.parentNode.insertBefore(j, e);
+            })(document, 'script');
         </script>
         <noscript>为正常使用评论功能请激活JavaScript</noscript>
-        </div>
-        <!-- 评论end -->
     </div>
+    <!-- 评论end -->
+</div>
