@@ -362,13 +362,15 @@ div.post h1{
     padding: 23px 15px 20px 18px; 
     font-weight: bold;
     line-height: 36px;
+    color: #fff;
 }
 div.post header p{
     padding-left: 22px;
     line-height: 20px;
+    color: #fff;
 }
 div.post header p .icon{
-    color: #474343;
+    color: #fff;
 }
 div.post article{
     padding: 0 23px;
@@ -443,7 +445,7 @@ blockquote:last-child {
 	margin-top: 20px;
     padding: 10px 15px;
 }
-
+.comment .i-info-b{display: none;}
 /**
  * 文章目录相关
  */
