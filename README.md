@@ -21,12 +21,13 @@
 
 
 
-##  做了份简历
-临近毕业，自己也学着做了一份网页版的简历，个人感觉总体上看上去不是太融洽，更像是五个单独的作品，这里有两张截图
-![cv](http://7xonct.com1.z0.glb.clouddn.com/photos/jietupage1.png)
+##  续坑~ 2018-01-24
 
+博客已经停更了好久 突然想起来续坑 :stuck_out_tongue_winking_eye: :stuck_out_tongue_winking_eye: 
 
-![cv2](http://7xonct.com1.z0.glb.clouddn.com/photos/jietupage5.png)
+不过这次是真的来续坑来了 表示会定期稳定的更新，并且会对博客进行一些适当的页面添加和版面更新，
+
+:no_mouth: :no_mouth:
 
 
 > [简历演示](http://momeakl.github.io/CV/)
