@@ -296,11 +296,29 @@ div.cate-list-link li a{
 
 
 /*back to top*/
-a.to-top{
-    display: inline-block;
-    width: 64px;
-    height: 64px;
-    background-image: url(../img/To-top.png);
+.to-top{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 99;
+    cursor: pointer;
+    font-size: 22px;
+    background-color: rgba(0,0,0,.8);
+    border-radius: 3px;
+    display: none;
+    animation: none;
+}
+.to-top:hover{
+    background-color: #26abff;
+    color: #fff;
+}
+.to-top span{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 38px;
+    display: block;
+    color: #fff;
 }
 
 /*footer*/
