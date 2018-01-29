@@ -7,7 +7,7 @@ icon: icon-tongue
 
 ### 关于俺呀~~ ![chi](http://7xonct.com1.z0.glb.clouddn.com/rabit/chi.gif)![chi](http://7xonct.com1.z0.glb.clouddn.com/rabit/chi.gif)
 
-本人是一名即将毕业的大四学生，计划将于1月初前往杭州开始找工作，想要找一份Web前端工程师的工作
+~本人是一名即将毕业的大四学生，计划将于1月初前往杭州开始找工作，想要找一份Web前端工程师的工作~
 
 
 > [在线PC版个人简历](http://momeakl.github.io/CV/) 
