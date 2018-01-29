@@ -6,14 +6,14 @@ layout: default
     <div class="col-sm-8">
         <div class="post-region">
             
-            <div class="post-list-body">
+            <div class="post-article-body">
                 <div class="all-posts" post-cate="All">
                     {% for post in paginator.posts %}
-                        <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-item">
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="post-article-item">
                         <div class="col-sm-2 text-center md-no-padding">
                            <span class="post-time">
-                            {{ post.date | date: "%d日" }}  <br>
-                            {{ post.date | date: "%Y年%m月" }}
+                            <span class="day">{{ post.date | date: "%d" }}</span>  <br>
+                            {{ post.date | date: "%m月 %Y" }}
                            </span>
                         </div>
                        <div class="col-sm-10 no-padding-right">
@@ -72,17 +72,21 @@ layout: default
                         {% for posts in category %}
                             {% for post in posts %}
                                    {% if post.url %}
-                                    <a href="{{ post.url | prepend: site.baseurl }}" class="post-list-item">
-                                        <span class="post-time">
-                            {{ post.date | date: "%Y-%m-%d" }}
-                        </span>
-                        <h2>
-                            {{ post.title }}
-                        </h2>
-                        
-                        <p class="excerpt">
-                            {{ post.excerpt }}
-                        </p>
+                                    <a href="{{ post.url | prepend: site.baseurl }}" class="post-article-item">
+                                       <div class="col-sm-2 text-center md-no-padding">
+                                           <span class="post-time">
+                                               <span class="day">{{ post.date | date: "%d" }}</span>  <br>
+                                            {{ post.date | date: "%m月 %Y" }}
+                                           </span>
+                                        </div>
+                                       <div class="col-sm-10 no-padding-right">
+                                        <h2>
+                                            {{ post.title }}
+                                        </h2>
+                                        <p class="excerpt">
+                                            {{ post.excerpt }}
+                                        </p>
+                                       </div>
                                     </a>
                                     {% endif %}
                                 {% endfor %}
