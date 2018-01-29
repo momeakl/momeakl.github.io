@@ -42,14 +42,14 @@
                 $('ul#markdown-toc').hide();
                 $('#content .content-text').html('<ul>' + $('#markdown-toc').html() + '</ul>');
             }
-            $('.post-list-body>div[post-cate!=All]').hide();
+            $('.post-article-body>div[post-cate!=All]').hide();
             /*show category when click categories list*/
             $('.cate-list-item').click(function () {
                 $('.cate-list-item').css('border-left', 'none');
                 $(this).css('border-left', '0.5em solid #ea6753');
                 var cate = $(this).attr('cate'); //get category's name
-                $('.post-list-body>div[post-cate!=' + cate + ']').hide(600);
-                $('.post-list-body>div[post-cate=' + cate + ']').show(900);
+                $('.post-article-body>div[post-cate!=' + cate + ']').hide(600);
+                $('.post-article-body>div[post-cate=' + cate + ']').show(900);
             });
 
         });

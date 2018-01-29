@@ -121,7 +121,6 @@ a:hover{
     height: 110px;
     line-height: 28px;
     background-color: #373737;
-    margin-top: 50px;
     color: #fdd947;
     font-size: 14px;
     padding: 30px 0;
@@ -140,9 +139,12 @@ a:hover{
     font-weight: 600;
 }
 .all-posts h2{
-    margin-top: 0;
+    margin-top: 50px;
+    color: #373737;
 }
-
+.all-posts p{
+    color: #666;
+}
 .post-list-item{
 	display: block;
 	padding:8px 30px 10px 30px; 
@@ -240,48 +242,15 @@ a:hover{
 }
 
 /*category | the right part of main*/
-div.shadow-corner-curl{
+.shadow-corner-curl{
     position: relative;
     margin-bottom: 20px;
-    background: #f8f8fd url(../img/bg-0004.jpg); 
-}
-.shadow-corner-curl:before,
-.shadow-corner-curl:after{
-    position: absolute;
-    z-index: -2;
-    content: '';
-    width: 80%;
-    height: 20%;
-    bottom: 11px;
-    background: transparent;
-    -webkit-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-	-moz-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-	-o-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-	box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-}
-.shadow-corner-curl:before{
-    left: 17px;
-    transform: skewX(-20deg) rotate(-6deg);
-    -webkit-transform: skewX(-20deg) rotate(-6deg);
-    -moz-transform: skewX(-20deg) rotate(-6deg);
-    -o-transform: skewX(-20deg) rotate(-6deg);
-}
-.shadow-corner-curl:after{
-    right: 17px;
-    transform: skewX(20deg) rotate(7deg);
-    -webkit-transform: skewX(20deg) rotate(7deg);
-    -moz-transform: skewX(20deg) rotate(7deg);
-    -o-transform: skewX(20deg) rotate(7deg);
+    margin-top: 50px;
 }
 
 div.cate-list-header{
     display: block;
     padding: 3px 15px;
-    background: #ea6753;
-    background-image: url(http://7xonct.com1.z0.glb.clouddn.com/blog/index-category-02.png);
-    background-size: 55px;
-    background-repeat: no-repeat;
-    background-position: 160px center;
 }
 .cate-show{
     position: relative;
@@ -289,7 +258,7 @@ div.cate-list-header{
 div.cate-first{
     background-image: url(http://7xonct.com1.z0.glb.clouddn.com/blog/jiji.png);
 }
-.cate-show:before,
+/*.cate-show:before,
 .cate-show:after{
     position: absolute;
     content: '';
@@ -308,19 +277,31 @@ div.cate-first{
     left: -1em;
     border-top: 1em solid #b71c1c;
     border-left: 1em solid transparent; 
-}
+}*/
 div.cate-list-header h2{
     line-height: 25px;
     font-family: '幼圆';
+    margin: 10px 0;
+    position: relative;
+}
+div.cate-list-header h2:before{
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 100%;
+    background: #fdd947;
+    top: 0;
+    left: -15px;
 }
 div a.cate-list-item{
-    padding: 8px 0;
+    padding: 15px 0;
     padding-right: 15px;
     text-indent: 15px;
     display: block;
     line-height: 20px;
     color: dimgray;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #e5e5e5;
     transition: 0.3s ease;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
