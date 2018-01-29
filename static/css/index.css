@@ -116,6 +116,7 @@ a:hover{
 /*The left part of the main*/
 .all-posts img{max-width: 100%;}
 .all-posts .post-time{
+    margin-top: 50px;
     display: inline-block;
     width: 110px;
     height: 110px;
@@ -242,10 +243,13 @@ a:hover{
 }
 
 /*category | the right part of main*/
+.shadow-corner-curl:first-child{
+    margin-top: 50px;
+}
 .shadow-corner-curl{
     position: relative;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 div.cate-list-header{
@@ -364,7 +368,7 @@ div.cate-list-link li a{
 }
 
 /*footer*/
-footer#foot{
+/*footer#foot{
     position:relative;
     bottom: 0;
     height: 80px;
@@ -395,8 +399,61 @@ footer div.footerPart{
     background: #000;
     width: 100%;
     color: #fff;
+}*/
+.footer-middle {
+    padding: 40px 0;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    color: #888;
+    background: #111 url(../img/buildings.png) repeat-x left bottom;
 }
-
+.footer-middle h3 {
+    font-size: 22px;
+    position: relative;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.foot-about-par {
+    border-bottom: 1px rgba(255,255,255,0.05) solid;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+.social-list a {
+    float: left;
+    display: block;
+    line-height: 1;
+}
+.social-list a i.ic-colored {
+    border-color: transparent;
+}
+.ic-dribbble:hover, .ic-colored.ic-dribbble {
+    background-color: #EA4C89;
+}
+.social-list a i {
+    margin: 0 5px 5px 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 39px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    position: relative;
+}
+.social-list .fa-qq{
+    background: #00ACEE;
+}
+.social-list .fa-wechat{
+    background: #98e165;
+}
+.social-list .fa-weibo{
+    background: #C4302B;
+}
 
 /* post
  * post articles area
