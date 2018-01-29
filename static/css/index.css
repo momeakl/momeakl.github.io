@@ -45,6 +45,15 @@ a:hover{
     color: #2ca6cb;
     text-decoration: none;
 }
+/*common*/
+.md-no-padding {
+    padding: 0 !important;
+}
+.no-padding-right {
+    padding-right: 0 !important;
+}
+
+
 
 /*navbar*/
 .navbar{
@@ -72,9 +81,9 @@ a:hover{
     display: block;
     /*background-image: url(http://7xonct.com1.z0.glb.clouddn.com/blog/6.png);*/
     background-image: url(../img/logo-0.png);
-    width: 390px;
+    width: 300px;
     background-repeat: no-repeat;
-    background-position: 0;
+    background-position: 15px center;
     background-size: 80%;
 }
 .navbar li a{
@@ -83,6 +92,15 @@ a:hover{
     padding-bottom: 0;
     line-height: 60px;
     height: 60px;
+    border-bottom: 2px solid transparent;
+    font-size: 14px;
+    transition: all .6s;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+.navbar>li>a:focus, .nav>li>a:hover{
+    background: none;
+    border-color: #fdd947;
 }
 .navbar .navbar-toggle{
     border: none;
@@ -97,13 +115,7 @@ a:hover{
 
 .all-posts img{max-width: 100%;}
 /*The left part of the main*/
-.post-area {
-    background: #f8f8fd url(../img/bg-0004.jpg);
-    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 10px rgba(0,0,0,0.1) inset;
-    -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 10px rgba(0,0,0,0.1) inset;
-    -o-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 10px rgba(0,0,0,0.1) inset;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 10px rgba(0,0,0,0.1) inset;
-}
+
 .post-list-item{
 	display: block;
 	padding:8px 30px 10px 30px; 
