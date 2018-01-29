@@ -192,6 +192,7 @@ a:hover{
 .paginator{
 	border-top:1px solid #ddd;
     margin-bottom: 50px;
+    margin-top: 40px;
 	text-align: center;
     position: relative;
     height: 40px;
@@ -210,7 +211,7 @@ a:hover{
     -o-transition: 0.5s ease;
 }
 .paginator span.pre:hover{
-    background: #ccc;
+    background: #f5f5f5;
     border-left: 0.5em solid #ea6753;
 }
 .paginator span.next{
@@ -222,7 +223,7 @@ a:hover{
     outline: none;
 }
 .paginator span.next:hover{
-    background: #ccc;
+    background: #f5f5f5;
 }
 .paginator span.pre a,
 .paginator span.next a{
@@ -239,7 +240,7 @@ a:hover{
     transition:  0.4s ease;
 }
 .paginator a.page:hover{
-    background: #ccc;
+    background: #f5f5f5;
 }
 
 /*category | the right part of main*/
@@ -355,7 +356,7 @@ div.cate-list-link li a{
     animation: none;
 }
 .to-top:hover{
-    background-color: #26abff;
+  /*  background-color: #26abff;*/
     color: #fff;
 }
 .to-top span{
@@ -434,7 +435,8 @@ footer div.footerPart{
     background-color: #EA4C89;
 }
 .social-list a i {
-    margin: 0 5px 5px 0;
+    color: #fff;
+    margin: 0 8px 5px 0;
     width: 40px;
     height: 40px;
     text-align: center;
@@ -444,6 +446,10 @@ footer div.footerPart{
     border: 1px solid #ccc;
     overflow: hidden;
     position: relative;
+    transition: all .6s;
+}
+.social-list a i:hover{
+    border-radius: 50%;
 }
 .social-list .fa-qq{
     background: #00ACEE;
@@ -462,10 +468,10 @@ footer div.footerPart{
 div.post{
     margin: 10px 0 ;
     padding-bottom: 20px;
-    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
+    /*-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
     -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
     -o-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;*/
 }
 
 div.post header{
@@ -514,10 +520,10 @@ div.bdsharebuttonbox{
     padding: 0;
     font-size: 15px;
     background: #f8f8fd url(../img/bg-0004.jpg);
-    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
+    /*-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
 	-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
 	-o-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;*/
 }
 #content .cate-list-header{
     margin-bottom: 8px;

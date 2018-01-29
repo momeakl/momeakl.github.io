@@ -14,7 +14,7 @@ permalink: /:year/:month/:day/:title/
 excerpt_separator: "\n\n\n\n"
 # Build settings
 markdown: kramdown
-paginate: 6
+paginate: 8
 paginate_path: "page:num"
 #highlighter: pygments
 # highlight
