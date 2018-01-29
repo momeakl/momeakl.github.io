@@ -12,7 +12,7 @@ layout: default
                         <a href="{{ post.url | prepend: site.baseurl }}" class="post-article-item">
                         <div class="col-sm-2 text-center md-no-padding">
                            <span class="post-time">
-                            <span class="day">{{ post.date | date: "%d" }}</span>  <br>
+                            <span class="day">{{ post.date | date: "%d" }}</span>
                             {{ post.date | date: "%m月 %Y" }}
                            </span>
                         </div>
@@ -68,14 +68,14 @@ layout: default
                 </div>
                 <!-- <div class="posts-in-categories"> -->
                 {% for category in site.categories %}
-                    <div post-cate="{{category | first}}">
+                    <div class="all-posts" post-cate="{{category | first}}">
                         {% for posts in category %}
                             {% for post in posts %}
                                    {% if post.url %}
                                     <a href="{{ post.url | prepend: site.baseurl }}" class="post-article-item">
                                        <div class="col-sm-2 text-center md-no-padding">
                                            <span class="post-time">
-                                               <span class="day">{{ post.date | date: "%d" }}</span>  <br>
+                                               <span class="day">{{ post.date | date: "%d" }}</span>
                                             {{ post.date | date: "%m月 %Y" }}
                                            </span>
                                         </div>

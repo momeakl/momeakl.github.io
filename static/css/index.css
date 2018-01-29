@@ -129,13 +129,18 @@ a:hover{
 .all-posts .post-article-item{
     margin-bottom: 20px;
 }
+.all-posts .post-article-item:after{
+    content: '';
+    display: table;
+    clear: both;
+}
 .all-posts .post-time .day{
     font-size: 35px;
     display: block;
     font-weight: 600;
 }
 .all-posts h2{
-
+    margin-top: 0;
 }
 
 .post-list-item{
