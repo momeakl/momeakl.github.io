@@ -22,13 +22,13 @@
                         {% else %}
                         <li>
                             {% endif %}
-                            <a href="{{ site.baseurl }}/"><span class="icon icon-quill"></span> 博客</a>
+                            <a href="{{ site.baseurl }}/"><!--<span class="icon icon-quill"></span>--> 博客</a>
                             {% for p in site.pages %} {% if p.title %} {% if p.url == page.url %}
                             <li class="active">
                                 {% else %}
                                 <li>
                                     {% endif %}
-                                    <a href="{{ p.url | prepend: site.baseurl }}"><span class="icon {{ p.icon }}"></span> {{ p.title }}</a>
+                                    <a href="{{ p.url | prepend: site.baseurl }}"><!--<span class="icon {{ p.icon }}"></span>--> {{ p.title }}</a>
                                 </li>
                                 {% endif %} {% endfor %}
 

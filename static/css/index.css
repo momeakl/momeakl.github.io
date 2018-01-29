@@ -63,6 +63,9 @@ a:hover{
 .navbar,.navbar-inverse{
     border-radius:0;
 }
+.navbar .navbar-header{
+    height: 100%;
+}
 .navbar-header a.navbar-brand{
     /*padding-right: 65px;*/
     height: 100%;
@@ -71,8 +74,15 @@ a:hover{
     background-image: url(../img/logo-0.png);
     width: 390px;
     background-repeat: no-repeat;
-    background-position: 206px center;
-    background-size: 50px;
+    background-position: 0;
+    background-size: 80%;
+}
+.navbar li a{
+    color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 60px;
+    height: 60px;
 }
 .navbar .navbar-toggle{
     border: none;
@@ -484,6 +494,15 @@ blockquote:last-child {
 		display: none;
 	}
 }
+@media screen and (max-width: 500px){
+	.navbar-header a.navbar-brand{
+        background-image: url(../img/logo-s.png);
+        width: 390px;
+        background-repeat: no-repeat;
+        background-position: 0;
+        background-size: 80%;
+    }
+}
 
 
 @media screen and (max-width: 1200px){
@@ -573,5 +592,5 @@ blockquote:last-child {
 	content: "\e901";
 }
 span.icon{
-    color:#fdd947;
+    color:#fff;
 }
