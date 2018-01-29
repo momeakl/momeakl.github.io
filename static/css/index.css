@@ -443,7 +443,6 @@ footer div.footerPart{
     font-size: 20px;
     display: inline-block;
     line-height: 39px;
-    border: 1px solid #ccc;
     overflow: hidden;
     position: relative;
     transition: all .6s;
