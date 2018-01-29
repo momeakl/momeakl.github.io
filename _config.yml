@@ -10,6 +10,8 @@ description: 感恩生活,珍惜拥有
 
 github_username:  momeakl
 permalink: /:year/:month/:day/:title/
+# excerpt
+excerpt_separator: "\n\n\n\n"
 # Build settings
 markdown: kramdown
 paginate: 6
