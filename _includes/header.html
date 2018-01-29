@@ -1,11 +1,11 @@
 <header>
     <!-- navbar -->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-fixed navbar-static">
         <div class="container">
             <!--Brand and toggle get grouped for better mobile display-->
             <div class="navbar-header">
                 <!--                <img src="{{ "/static/img/6.png" | prepend: site.baseurl }}" alt="bike" />-->
-                <a href="{{ site.baseurl }}/" class="navbar-brand">Find the beauty of Life</a>
+                <a href="{{ site.baseurl }}/" class="navbar-brand"></a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -16,7 +16,7 @@
             </div>
             <!--Collect the nav links, forms, and other content for toggling-->
             <div class="collapse navbar-collapse" id="example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav">
                     {% if page.url == "/index.html" %}
                     <li class="active">
                         {% else %}

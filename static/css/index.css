@@ -47,20 +47,29 @@ a:hover{
 }
 
 /*navbar*/
-nav{
-    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-	-o-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-	box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+.navbar{
+    background: rgba(0,0,0,1);
+    border: none !important;
+    display: inline-table;
+    width: 100%;
+    border-radius: 0;
+}
+.navbar .container{
+    height: 60px;
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
 }
 .navbar,.navbar-inverse{
     border-radius:0;
 }
 .navbar-header a.navbar-brand{
-    padding-right: 65px;
+    /*padding-right: 65px;*/
     height: 100%;
     display: block;
-    background-image: url(http://7xonct.com1.z0.glb.clouddn.com/blog/6.png);
+    /*background-image: url(http://7xonct.com1.z0.glb.clouddn.com/blog/6.png);*/
+    background-image: url(../img/logo-0.png);
+    width: 390px;
     background-repeat: no-repeat;
     background-position: 206px center;
     background-size: 50px;
@@ -69,11 +78,14 @@ nav{
     border: none;
 }
 .navbar a.navbar-brand{
-    color: crimson;
+    color: #fff;
 }
 .navbar a.navbar-brand:hover{
-    color: crimson;
+    color: #fdd947;
 }
+
+
+.all-posts img{max-width: 100%;}
 /*The left part of the main*/
 .post-area {
     background: #f8f8fd url(../img/bg-0004.jpg);
@@ -561,5 +573,5 @@ blockquote:last-child {
 	content: "\e901";
 }
 span.icon{
-    color:crimson;
+    color:#fdd947;
 }
