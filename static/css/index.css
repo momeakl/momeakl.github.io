@@ -610,13 +610,13 @@ blockquote:last-child {
 	}
 }
 @media screen and (max-width: 500px){
-	.navbar-header a.navbar-brand{
+	/*.navbar-header a.navbar-brand{
         background-image: url(../img/logo-s.png);
         width: 390px;
         background-repeat: no-repeat;
         background-position: 0;
         background-size: 80%;
-    }
+    }*/
 }
 
 
@@ -633,7 +633,63 @@ blockquote:last-child {
 	.post article ul{
 		padding-left: 25px;
 	}
+    .home .col-sm-3{
+        padding: 0;
+    }
+
 }
+@media screen and (max-width: 1000px){
+    .home .col-sm-1{
+        display: none;
+    }
+    .home .col-sm-3{
+        width: 33%;
+    }
+    .all-posts .post-time {
+        width: 80px;
+        height: 80px;
+        padding: 15px 0;
+    }
+}
+@media screen and (max-width: 780px){
+
+    .all-posts .post-time {
+        width: 80px;
+        height: 80px;
+        padding: 15px 0;
+    }
+    .navbar .navbar-header{
+        height: 48px;
+    }
+    .navbar-header a.navbar-brand{
+        background-image: url(../img/logo-s.png);
+        width: 198px;
+    }
+    .navbar li a{
+        color: #fff;
+        padding-top: 0;
+        padding-bottom: 0;
+        line-height: 60px;
+        height: 60px;
+        border-bottom: 2px solid transparent;
+        font-size: 14px;
+        transition: all .6s;
+        box-sizing: border-box;
+        margin-right: 20px;
+    }
+    .navbar>li>a:focus, .nav>li>a:hover{
+        background: none;
+        border-color: #fdd947;
+    }
+    .navbar .navbar-toggle{
+        border: none;
+        color: #fff;
+    }
+    .navbar-toggle .icon-bar{
+        background: #fff;
+    }
+}
+
 
 /*font*/
 @font-face {
