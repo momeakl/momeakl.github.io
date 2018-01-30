@@ -686,6 +686,14 @@ blockquote:last-child {
     .home .col-xs-10{
         width: 83%;
     }
+    .all-posts .post-time{
+        margin-top: 20px;
+    }
+    .all-posts h2{
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: 幼圆,'microsoft yahei';
+    }
 }
 
 /*font*/
