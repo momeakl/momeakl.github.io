@@ -609,16 +609,6 @@ blockquote:last-child {
 		display: none;
 	}
 }
-@media screen and (max-width: 500px){
-	/*.navbar-header a.navbar-brand{
-        background-image: url(../img/logo-s.png);
-        width: 390px;
-        background-repeat: no-repeat;
-        background-position: 0;
-        background-size: 80%;
-    }*/
-}
-
 
 @media screen and (max-width: 1200px){
 	
@@ -665,31 +655,38 @@ blockquote:last-child {
         background-image: url(../img/logo-s.png);
         width: 198px;
     }
-    .navbar li a{
-        color: #fff;
-        padding-top: 0;
-        padding-bottom: 0;
-        line-height: 60px;
-        height: 60px;
-        border-bottom: 2px solid transparent;
-        font-size: 14px;
-        transition: all .6s;
-        box-sizing: border-box;
-        margin-right: 20px;
-    }
-    .navbar>li>a:focus, .nav>li>a:hover{
-        background: none;
-        border-color: #fdd947;
-    }
-    .navbar .navbar-toggle{
-        border: none;
-        color: #fff;
-    }
     .navbar-toggle .icon-bar{
         background: #fff;
     }
 }
+@media screen and (max-width: 530px){
+	.all-posts .post-time {
+        width: 50px;
+        height: 50px;
+        font-size: 12px;
+        line-height: 14px;
+        padding: 4px 0;
+    }
+    .all-posts .post-time .day{
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+    .home .col-xs-2{
+        width: 12%;
+    }
+    .home .col-xs-10{
+        width: 87%;
+    }
 
+}
+@media screen and (max-width: 370px){
+    .home .col-xs-2{
+        width: 16%;
+    }
+    .home .col-xs-10{
+        width: 83%;
+    }
+}
 
 /*font*/
 @font-face {
