@@ -519,10 +519,6 @@ div.bdsharebuttonbox{
     padding: 0;
     font-size: 15px;
     background: #f8f8fd url(../img/bg-0004.jpg);
-    /*-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-	-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-	-o-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;*/
 }
 #content .cate-list-header{
     margin-bottom: 8px;
@@ -535,6 +531,43 @@ div.bdsharebuttonbox{
 #content a{
     text-decoration: none;
     outline: none;
+}
+/*2018-01-30*/
+.detail-menu h3{
+    margin-top: 0;
+    color: #333;
+    position: relative;
+}
+.detail-menu h3:before{
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 100%;
+    background: #fdd947;
+    top: 0;
+    left: -15px;
+}
+.detail-menu ul{
+    padding-left: 15px;
+}
+.detail-menu li{
+    padding: 15px 0;
+    padding-right: 15px;
+    text-indent: 15px;
+    display: block;
+    line-height: 20px;
+    color: dimgray;
+    text-indent: 0;
+    border-bottom: 1px solid #e5e5e5;
+    transition: 0.3s ease;
+}
+.detail-menu li a{
+    color: #333;
+}
+
+.detail-menu li:last-of-type{
+    border-bottom: none;
 }
 
 /*page页面*/
@@ -675,4 +708,18 @@ blockquote:last-child {
 }
 span.icon{
     color:#fff;
+}
+#container .wf-form, #container .popup-quotation .quotation-wf .quotation-text{
+    border: 1px solid #e5e5e5;
+    border-color: #e5e5e5;
+}
+#container .login-info-tooltip{
+    display: none;
+}
+#container .guest-write-btn{
+    left: 1px !important;
+    height: 34px !important;
+}
+#container #footer{
+    display: none;
 }
