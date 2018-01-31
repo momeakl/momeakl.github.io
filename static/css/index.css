@@ -509,7 +509,9 @@ div.post img{
     max-width: 100%;
     margin: 0 auto;
 }
-
+.post-recent{margin-top: 20px;}
+.post-recent strong{margin-right: 2px;}
+.post-recent .fa{margin-right: 4px;}
 /*baidu share*/
 div.bdsharebuttonbox{
     margin-left: 2em;
@@ -694,6 +696,15 @@ blockquote:last-child {
         margin-top: 20px;
         font-size: 20px;
         font-family: 幼圆,'microsoft yahei';
+    }
+    .post article{
+        padding: 0;
+    }
+    .post h1 {
+        padding-left:6px;
+    }
+    .post header p{
+        padding-left: 8px;
     }
 }
 
