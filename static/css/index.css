@@ -468,34 +468,30 @@ footer div.footerPart{
 div.post{
     margin: 10px 0 ;
     padding-bottom: 20px;
-    /*-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-    -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-    -o-box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.4),0 0 20px rgba(0,0,0,0.1) inset;*/
 }
 
-div.post header{
+.post header{
     border-bottom: 1px solid #ccc;
     border-left: 0.5em solid #ea6753;
     background: #ea6753;
     color: #474343;
 }
 
-div.post h1{
+.post h1{
     padding: 23px 15px 20px 18px; 
     font-weight: bold;
     line-height: 36px;
     color: #fff;
 }
-div.post header p{
+.post header p{
     padding-left: 22px;
     line-height: 20px;
     color: #fff;
 }
-div.post header p .icon{
+.post header p .icon{
     color: #fff;
 }
-div.post article{
+.post article{
     padding: 0 23px;
 }
 article p{
@@ -680,7 +676,15 @@ blockquote:last-child {
     .home .col-xs-10{
         width: 87%;
     }
-
+    .post article{
+        padding: 0;
+    }
+    .post h1 {
+        padding-left:6px;
+    }
+    .post header p{
+        padding-left: 8px;
+    }
 }
 @media screen and (max-width: 370px){
     .home .col-xs-2{
@@ -696,15 +700,6 @@ blockquote:last-child {
         margin-top: 20px;
         font-size: 20px;
         font-family: 幼圆,'microsoft yahei';
-    }
-    .post article{
-        padding: 0;
-    }
-    .post h1 {
-        padding-left:6px;
-    }
-    .post header p{
-        padding-left: 8px;
     }
 }
 
@@ -782,17 +777,43 @@ blockquote:last-child {
 span.icon{
     color:#fff;
 }
-#container .wf-form, #container .popup-quotation .quotation-wf .quotation-text{
-    border: 1px solid #e5e5e5;
-    border-color: #e5e5e5;
+
+/*待改*/
+#masonry {
+    padding: 0;
+    min-height: 450px;
+    margin: 0 auto;
 }
-#container .login-info-tooltip{
-    display: none;
+#masonry .thumbnail {
+    width: 330px;
+    margin: 20px;
+    padding: 0;
+    border:0;
+    box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3);
 }
-#container .guest-write-btn{
-    left: 1px !important;
-    height: 34px !important;
+#masonry .thumbnail .imgs {
+    padding: 10px;
 }
-#container #footer{
-    display: none;
+#masonry .thumbnail .imgs img {
+    margin-bottom: 5px;
+}
+#masonry .thumbnail .caption {
+    background-color: #fff;
+    padding-top: 0;
+    font-size: 13px;
+}
+#masonry .thumbnail .caption .title {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: left;
+}
+#masonry .thumbnail .caption .author {
+    font-size: 11px;
+    text-align: right;
+}
+.lightbox .lb-image {
+    max-width: none;
 }
