@@ -685,9 +685,12 @@ blockquote:last-child {
     .post header p{
         padding-left: 8px;
     }
+    #masonry{
+        width: 100% !important;
+    }
     #masonry .thumbnail{
-        width: 100%;
-        margin: 0;
+        width: 92% !important;
+        margin: 0 !important;
     }
 }
 @media screen and (max-width: 370px){
