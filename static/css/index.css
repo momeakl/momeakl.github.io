@@ -689,8 +689,8 @@ blockquote:last-child {
         width: 100% !important;
     }
     #masonry .thumbnail{
-        width: 92% !important;
-        margin: 0 !important;
+        width: 100% !important;
+        margin: 30px 0 !important;
     }
 }
 @media screen and (max-width: 370px){
