@@ -685,6 +685,10 @@ blockquote:last-child {
     .post header p{
         padding-left: 8px;
     }
+    #masonry .thumbnail{
+        width: 100%;
+        margin: 0;
+    }
 }
 @media screen and (max-width: 370px){
     .home .col-xs-2{
@@ -779,6 +783,7 @@ span.icon{
 }
 
 /*待改*/
+.liuyanban .container{padding: 0;}
 #masonry {
     padding: 0;
     min-height: 450px;
