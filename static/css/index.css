@@ -478,6 +478,9 @@ div.post{
 }
 
 .post h1{
+    color: #333;
+}
+.post header h1{
     padding: 23px 15px 20px 18px; 
     font-weight: bold;
     line-height: 36px;
